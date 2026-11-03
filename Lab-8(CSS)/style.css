@@ -1,0 +1,34 @@
+h1{
+    color: aqua;
+    background-color: blue;
+    width:200px;
+}
+
+p{
+    color: yellow;
+    background-color: black;
+    width:250px;
+    height: 50px;
+    text-overflow: auto;
+    overflow:visible;
+}
+
+#middle{
+    color: red;
+}
+
+.para{
+    color:crimson;
+}
+
+.span1{
+    background-color: darkgreen;
+}
+
+.div1{
+    width: 300px;
+    height:200px;
+    border:2px solid black;
+    text-overflow: auto;
+    overflow: hidden;
+}

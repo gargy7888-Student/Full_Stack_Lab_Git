@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 20px;
+    background-color: red;
+    overflow-x: scroll;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+div{
+    width: 2500px;
+    background-color: blue;
+}

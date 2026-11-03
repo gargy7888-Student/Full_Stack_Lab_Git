@@ -1,0 +1,54 @@
+/* div{
+    margin: 10px 20px 30px 40px;
+    border: 5px solid brown;
+    padding: 40px;
+    background-color: orange;
+    width: 200px;
+} 
+
+.item-1{
+    margin:40px;
+    border: 5px solid brown;
+    padding: 40px;
+    background-color: orange;
+    width: 200px;
+
+}
+
+.item-2{
+    margin:40px;
+    border: 5px solid brown;
+    padding: 40px;
+    background-color: orange;
+    width: 290px;
+    box-sizing: border-box;
+} */
+
+
+
+
+/* units in css like px,%,vh,vw */
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.item-1{    
+    height: 300px;
+    width: 500px;
+    background-color: orange;
+}
+.item-2{
+    height: 300px;
+    width: 60%;
+    background-color: blue;
+}
+
+.item-3{    
+    height: 300px;
+    width: 60vw;
+    background-color: aqua;
+}

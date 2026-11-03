@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    gap:15px;
+}
+.nav-links{
+    border: 1px solid gray;
+    background-color: lightgray;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    width: fit-content;
+    position: absolute;
+    /* z-index: -1; */
+    top: 35px;
+    display: none;
+    
+}
+
+.mobile-buttons{
+    display: none;
+}
+
+.menu-container{
+    background-color: chocolate;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    order: -1;
+    margin: 5px 0px 0px 5px;
+}
+
+.menu-container:hover nav{
+    background-color:black;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media (width>=600px){
+    .nav-links{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        position: static;
+        border: none;
+
+    }
+    .menu-container{
+        order: 1;
+        height: fit-content;
+        width: fit-content;
+        background-color: transparent;
+    }
+    a{
+        color: red;
+        font-size: 20px;
+    }
+    .laptop-buttons{
+        display: flex;
+        order: 2;
+        height: fit-content;
+        width: fit-content;
+        gap: 10px;
+        margin-right: 20px;
+
+    }
+    .mobile-buttons{
+        display: none;
+    }
+    .head{
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: red;
+    }
+    h1{
+        margin-left: 20px;
+    }
+    .menu-container:hover nav{
+        background-color: transparent;
+
+    }
+    button:active{
+        background-color: black;
+        color: white;
+
+    }
+    button{
+        background-color: ;
+        font-size: 15px;
+    }
+}

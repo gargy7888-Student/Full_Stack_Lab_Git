@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    width:100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+/* transform(translate) and relative(properties) -> w.r.t it's current position. (top, right, left, bottom, z-index)*/
+.item1{
+    position: relative;
+    font-size: 30px;
+    left: 25px;
+    top: 25px;
+    background-color: blueviolet;
+    z-index: -1;
+    opacity:0.5;
+}
+
+
+/* relative(properties) -> w.r.t first positioned element in the parental chain. (top, right, left, bottom, z-index)*/
+.item2{
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: brown;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+
+
+
+
+.item3{
+    position: fixed;
+    font-size: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:chartreuse;
+    z-index: 1;
+    opacity: 0.5;
+}

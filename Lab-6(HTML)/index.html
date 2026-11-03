@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tags</title>
+</head>
+<body>
+    <h2>Learning Form Tags</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" id="name" name="name" value="John Doe" required minlength="2" maxlength="50"> 
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" id="email" name="email" value="Johndoe@gmail.com" required maxlength="50">
+        <label for="age">Age:</label>
+        <input type="number" placeholder="Enter your age" id="age" name="age" value="25" min="1" max="100">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <!-- <input type="submit" value="Submit">
+        <input type="reset" value="Reset"> -->
+    </form>
+</body>
+</html>
+
+
+<!-- name attribute in input tag is used to make a key in json format. It is atmost important in the input tag-->
