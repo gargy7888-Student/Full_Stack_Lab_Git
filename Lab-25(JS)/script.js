@@ -93,3 +93,69 @@
 
 
 
+// calling function inside function---------------------------------------------------------
+// function sumofsquareandcube(n){
+//     return square(n)+cube(n);
+// }
+
+// function square(n){
+//     return n*n;
+// }
+
+// function cube(n){
+//     return square(n)*n;
+// }
+
+
+// let n = Number(prompt("Enter a number: "));
+// alert(sumofsquareandcube(n));
+
+
+
+
+// function ispositive(n){
+//     if (n>=0){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+
+// function absoluteValue(n){
+//     return Math.abs(n);
+    
+// }
+
+// function safesquareroot(n){
+//     if (ispositive(n)){
+//         return Math.sqrt(n)        
+//     }
+//     else{
+//         n = absoluteValue(n)
+//         return Math.sqrt(n)
+//     }
+// }
+
+// let n = Number(prompt("Enter a number"))
+// alert(safesquareroot(n))
+
+
+
+
+// function arraymax(arr){
+//     let i = 0
+//     let max = arr[0]
+//     while(i<arr.length){
+//         if (arr[i]>max){
+//             max=arr[i]
+//         }
+//         i++;
+//     }
+//     return max
+// }
+
+// console.log(arraymax([4, 23, 56, 12, 764, 123 ]))   
+
+
+
